@@ -72,7 +72,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "start": "node scripts/start.js",
+    "start": "webpack-dev-server",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },
